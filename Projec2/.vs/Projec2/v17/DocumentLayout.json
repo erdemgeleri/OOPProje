@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\Projec2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E932F183-9030-4E5F-B702-8A92A57DF412}|Projec2\\Projec2.csproj|c:\\users\\hp\\source\\repos\\projec2\\projec2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E932F183-9030-4E5F-B702-8A92A57DF412}|Projec2\\Projec2.csproj|solutionrelative:projec2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72275BF4-9183-412C-9C3B-AFB1A005BFE5}|Ev.Lib\\Ev.Lib.csproj|c:\\users\\hp\\source\\repos\\projec2\\ev.lib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72275BF4-9183-412C-9C3B-AFB1A005BFE5}|Ev.Lib\\Ev.Lib.csproj|solutionrelative:ev.lib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Projec2\\Ev.Lib\\Class1.cs",
+              "RelativeDocumentMoniker": "Ev.Lib\\Class1.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Projec2\\Ev.Lib\\Class1.cs",
+              "RelativeToolTip": "Ev.Lib\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:17:25.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\Projec2\\Projec2\\Program.cs",
+              "RelativeDocumentMoniker": "Projec2\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\Projec2\\Projec2\\Program.cs",
+              "RelativeToolTip": "Projec2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T13:16:39.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
