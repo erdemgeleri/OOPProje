@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Ev.Libs
 {
@@ -24,7 +24,7 @@ namespace Ev.Libs
                 $"Tuvalet Sayısı:{tuvalet_sayisi}\nDepozito:{depozito}";
         }
     }
-    public class SatilikEv : Ev
+    sealed public class SatilikEv : Ev
     {
         public int ev_fiyati { get; set; }
         public override string EvBilgileriGetir()
@@ -33,7 +33,7 @@ namespace Ev.Libs
         }
 
     }
-    public class KiralikEv : Ev
+    sealed public class KiralikEv : Ev
     {
         public int kira { get; set; }
         public override string EvBilgileriGetir()
