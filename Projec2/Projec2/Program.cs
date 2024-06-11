@@ -1,4 +1,4 @@
-﻿using Ev.Libs;
+using Ev.Libs;
 namespace Projec2
 {
     internal class Program
@@ -20,19 +20,17 @@ namespace Projec2
             {
                 Menu();
             } while (kontrol == true);
-            KiralikEvKayit();
-            SatilikEvKayit();
             Console.WriteLine("Hoşçakalın!..");
             Console.ReadLine();
         }
         static void Menu()
         {
             Console.Write(menu_msg);
-            string secim = Console.ReadLine();
+            string secim = Console.ReadLine().ToLower();
             if (secim == "1" || secim == "satılık ev")
             {
                 Console.Write(secim_msg);
-                string secim2 = Console.ReadLine();
+                string secim2 = Console.ReadLine().ToLower();
                 if (secim2 == "1" || secim2 == "tüm evleri görüntüle")
                 {
                     Console.WriteLine("----------------------------------------------------------------------");
@@ -47,7 +45,7 @@ namespace Projec2
             else if (secim == "2" || secim == "kiralık ev")
             {
                 Console.Write(secim_msg);
-                string secim2 = Console.ReadLine();
+                string secim2 = Console.ReadLine().ToLower();
                 if (secim2 == "1" || secim2 == "tüm evleri görüntüle")
                 {
                     Console.WriteLine("----------------------------------------------------------------------");
@@ -85,6 +83,7 @@ namespace Projec2
             Console.WriteLine("Evin Fiyatı:");
             satilikEv.ev_fiyati = int.Parse(Console.ReadLine());
             satilik_ev_list.Add(satilikEv);
+            SatilikEvKayit();
         }
         public static void KiralikEvGirisi()
         {
@@ -102,6 +101,7 @@ namespace Projec2
             Console.WriteLine("Evin Fiyatı:");
             kiralikEv.kira = int.Parse(Console.ReadLine());
             kiralik_ev_list.Add(kiralikEv);
+            KiralikEvKayit();
         }
         public static void SatilikEvKayit()
         {
